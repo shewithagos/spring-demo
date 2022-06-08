@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" type="text/css" th:href="@{/css/form.css}"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="../static/css/form.css" rel="stylesheet">
+    <title>success</title>
+</head>
+<body>
+<h1> Student added successfully</h1>
+
+<div class="col-lg-3">
+    <a th:href="@{/students}" class="btn btn-primary btn-sm mb-3"> return to StudentList</a>
+    <a th:href="@{/students/new}" class="btn btn-primary btn-sm mb-3"> Add Another Student</a>
+
+</div>
+</body>
+</html>
